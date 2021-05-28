@@ -52,7 +52,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('home') }}">
+                        <a class="nav-link" href="{{ route('refer') }}">
                             <i class="ni ni-archive-2 text-green"></i>
                             <span class="nav-link-text">Promotion Income</span>
                         </a>

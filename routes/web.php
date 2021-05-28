@@ -38,7 +38,10 @@ Route::post('/top-up', [TopupController::class, 'payment'])->name('payment');
 Route::post('/transfer', [TransferController::class, 'send'])->name('transfer');
 Route::post('/withdraw', [WithdrawController::class, 'withdraw'])->name('withdraw');
 Route::view('invest','invest')->name('invest');
+Route::view('refer','refer')->name('refer');
 
+
+Route::redirect('/admin','/admin/dashboard');
 
 // Pages route e.g. [about,contact,etc]
 Route::get('/{slug}', PageController::class)->name('page');
