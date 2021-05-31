@@ -1,0 +1,730 @@
+@media (max-width:1199px){
+    .footer-area .footer-top .widget-link {
+        padding: 0px 42px 0px 37px;
+    }
+    .footer-area .footer-top .widget-news {
+        padding-left: 2px;
+    }
+    .footer-area .footer-top .recent-widget li .recent-post-text{
+        width: 68%;
+    }
+    .footer-area .footer-top .recent-widget li .recent-post-text h5 a{
+        letter-spacing: -0.86px;
+        font-size: 13px;
+    }
+    .footer-area .footer-top .recent-widget li img {
+        margin-right: 7px;
+    }
+    .map-contact-area .contact-info .info {
+        padding: 0px 0px 0px 36px;
+    }
+    .question-area .question-contact-form {
+        padding: 0 42px;
+    }
+    .question-area .question-content {
+        padding: 0px;
+    }
+    .latest-blog-area .latest .blog .img-hover{
+        max-width: 275px;
+    }
+    .latest-blog-area .latest .blog.blog-info{
+        margin-left: 0px;
+    }
+    .latest-blog-area .latest .blog.blog-info1{
+        margin-left: 0px;
+    }
+    .latest-blog-area .latest .blog .blog-content h2{
+        font-size: 14px;
+    }
+    .about-area .about-content .texts{
+        padding: 36px 20px 0px 25px;
+    }
+    .about-area .about-content .texts h2{
+        font-size: 20px;
+    }
+    .about-area .about-content .texts p{
+        padding-top: 15px;
+    }
+    .about-area .about-content .texts .button {
+        margin-top: 30px;
+    }
+    .about-text-area .about-text h2::after{
+        right: 128px;
+    }
+    .about-text-area .about-img{
+        margin-top: 111px;
+    }
+    .about-text-area .about-text .text{
+        padding: 0px 0px 0px 0px;
+        text-align: left;
+    }
+    .blog-area .side-bar-section{
+        padding: 30px 0px 0px;
+    }
+    .blog-area .side-bar-section .widget .widget-inner .recent-post .media-left{
+        padding-right: 10px;
+    }
+    .blog-area .side-bar-section .widget .widget-inner .recent-post .media-body .post-title{
+        font-size: 16px;
+    }
+    .contact-area .contact-info-section .contact-info.first-info {
+        padding-right: 90px;
+    }
+    .contact-area .contact-info-section .contact-info.info-middle {
+        padding-left: 16px;
+    }
+    .contact-area .contact-info-section .contact-info.last-info {
+        padding-left: 100px;
+    }
+    .services-area .service .services-item{
+        padding-right: 0px;
+    }
+    .services-area .service .service-img {
+        margin-top: 64px;
+        padding-left: 50px;
+    }
+    .services-area .service.services2 .service-img {
+        padding-left: 0px;
+        padding-right: 59px;
+    }
+    .services-area .service.services2 .services-item {
+        padding-left: 8px;
+    }
+    .services-area .service + .service {
+        padding-top: 60px;
+    }
+}
+@media (max-width:991px){
+    .work-progressbar-area .work-progress .work-progressbar{
+        padding-bottom: 35px;
+    }
+    .work-progressbar-area{
+        padding: 120px 0px 67px;
+    }
+    .footer-area .footer-top .widget-link{
+        padding-bottom: 113px;
+        padding-left: 0;
+    }
+    .footer-area .footer-top .recent-widget{
+        padding: 0px 15px;
+    }
+    .footer-area .footer-top .recent-widget li .recent-post-text {
+        width: 73%;
+    }
+    .footer-area .footer-top .recent-widget li .recent-post-text h5 a{
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+    .footer-area .footer-bottom .social-nav ul li + li {
+        padding-left: 15px;
+    }
+    .map-contact-area .contact-info .info {
+        padding: 0px;
+    }
+    .map-contact-area .contact-info .info .box .media-body ul li{
+        font-size: 14px;
+    }
+    .question-area .question-contact-form {
+        padding: 0px;
+    }
+    .question-area .question-content h2 {
+        font-size: 33px;
+    }
+    .question-area .question-contact-form .submit{
+        padding: 0px 70px;
+    }
+    .latest-blog-area .latest .blog .img-hover {
+        max-width: 100%;
+    }
+    .latest-blog-area .latest .blog {
+        margin-bottom: 30px;
+    }
+    .clients-about-area .slider-carousel{
+        padding: 115px 0px 0px;
+    }
+    .clients-about-area .slider-carousel .owl-next {
+        right: -20px;
+    }
+    .clients-about-area .slider-carousel .owl-prev {
+        left: -20px;
+    }
+    .clients-about-area .slider-carousel .slider-content .text{
+        padding: 34px 10px 37px 15px;
+    }
+    .clients-about-area .slider-carousel .slider-content .text p{
+        font-size: 15px;
+    }
+    .about-area .about-content .about-img{
+        max-width: 350px;
+        height: 368px;
+    }
+    .about-area .about-content .about-img img{
+        max-width: 350px;
+        height: 368px;
+    }
+    .about-area .about-content .about-img .content{
+        padding: 29px 0px 0px 15px;
+    }
+    .about-area .about-content .about-img .content h3{
+        padding-right: 60px;
+        padding-bottom: 178px;
+        font-size: 25px;
+    }
+    .about-area .about-content .about-img .content h4{
+        padding-left: 41px;
+    }
+    .about-area .about-content .texts p{
+        font-size: 13px;
+    }
+    .about-area .about-content .texts{
+        padding: 36px 5px 0px 0px;
+    }
+    .about-area .about-content .texts h2 {
+        font-size: 17px;
+    }
+    .features-area .features-content{
+        padding-right: 0px;
+        height: 268px;
+    }
+    .features-area .features-content p{
+        font-size: 15px;
+    }
+    .main-slider-area .slide-tittle h2{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .about-text-area .about-text .text{
+        width: 100%;
+    }
+    .about-text-area .about-text .text.text2{
+        padding: 0px;
+    }
+    .about-text-area .about-text h2::after {
+        right: 13px;
+    }
+    .team-area .teams .team{
+        height: 362px;
+        margin-bottom: 30px;
+    }
+    .team-area {
+        padding-bottom: 84px;
+    }
+    .blog-area .blog-section p{
+        font-size: 15px;
+        line-height: 27px;
+        padding-top: 22px;
+    }
+    .blog-area .blog-section p + p {
+        padding-top: 5px;
+    }
+    .blog-area .side-bar-section .widget .widget-inner .recent-post .media-body .post-title{
+        font-size: 15px;
+    }
+    .contact-area .contact-info-section .contact-info.first-info {
+        padding-right: 0px;
+    }
+    .contact-area .contact-info-section .contact-info.info {
+        padding-right: 0px;
+    }
+    .contact-area .contact-info-section .contact-info.info-middle {
+        padding-left: 0px;
+    }
+    .contact-area .contact-info-section .contact-info.last-info {
+        padding-left: 18px;
+    }
+    .services-area {
+        padding: 120px 0px 118px;
+    }
+    .services-area .service .common{
+        float: none;
+    }
+    .services-area .service.services2 .services-item {
+        padding-left: 0px;
+    }
+    .services-area .service .services-item {
+        padding-top: 10px;
+    }
+    .services-area .service .service-img {
+        margin-top: 0px;
+    }
+    .service.services2 .service-img {
+        padding-right: 0px;
+    }
+    .services-area .service.services2 .service-img {
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+    .work-progressbar-area .work-progress .work-progressbar .circle .chart-percent {
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .work-progressbar-area .work-progress .work-progressbar{
+        text-align: center;
+    }
+}
+@media (max-width:767px){
+    .about-text-area .about-text h2{
+        font-size: 23px;
+    }
+    .latest-blog-area .latest .blog .img-hover{
+        max-width: 100%;
+    }
+    .latest-blog-area .latest .blog .blog-content h2{
+        font-size: 16px;
+    }
+    .latest-blog-area .latest .blog .blog-content {
+        padding: 18px 15px 17px 14px;
+    }
+    .footer-area .footer-bottom{
+        text-align: center;
+    }
+    .footer-area .footer-bottom .social-nav ul {
+        text-align: center;
+    }
+    .footer-area .footer-bottom .footer-nav {
+        padding: 10px 0px;
+    }
+    .footer-area .footer-bottom .social-nav ul li + li {
+        padding-left: 40px;
+    }
+    .question-area .question-content{
+        padding: 0px 50px 30px;
+    }
+    .question-area .question-contact-form {
+        padding: 0px 50px;
+    }
+    .question-area .question-contact-form .contact-button{
+        display: block;
+        text-align: center;
+    }
+    .clients-about-area .slider-carousel{
+        padding: 115px 30px 0px;
+    }
+    .clients-about-area .slider-carousel .slider-content .text {
+        padding: 34px 20px 37px 20px;
+    }
+     .clients-about-area .slider-carousel .owl-next {
+        right: 0px;
+    }
+    .clients-about-area .slider-carousel .owl-prev {
+        left: 0px;
+    }
+    .about-area .about-content .media-left{
+        display: block;
+        padding-right: 0px;
+    }
+    .about-area .about-content .about-img{
+        margin: 0 auto;
+    }
+    .about-area .about-content{
+        background: none;
+    }
+    .about-area .about-content .media-body{
+        background: #f8f8f8;
+        padding-bottom: 40px;
+    }
+    .about-area .about-content .texts{
+        padding: 36px 10px 0px 15px;
+    }
+    .about-area .about-content .texts h2{
+        font-size: 20px;
+    }
+    .about-area .about-content .texts p{
+        font-size: 15px;
+    }
+    .main-slider-area .slide-tittle h2{
+        font-size: 35px;
+    }
+    .blog-area .side-bar-section{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .blog-area .side-bar-section .widget .widget-inner .recent-post .media-body .post-title{
+        font-size: 16px;
+    }
+    .blog-area .side-bar-section .widget .widget-inner .recent-post .media-left{
+        padding-right: 15px;
+    }
+    .blog-area .blog-section p{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .contact-area .contact-info-section .contact-info.last-info {
+        padding-left: 0px;
+    }
+    .contact-area .contact-info-section .contact-info.last-info{
+        padding-left: 112px;
+        padding-right: 112px;
+    }
+    .contact-area .contact-info-section .contact-info {
+        margin-bottom: 30px;
+    }
+    .contact-area .contact-info-section .contact-info.info-middle{
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+    .contact-area .contact-form-box .form-group.name {
+        padding-right: 0px; 
+    }
+    .contact-area .contact-form-box .form-group.email {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contact-area .contact-form-box .form-group.tel {
+         padding-left: 0px; 
+    }
+}
+
+@media (max-width:719px){
+   .footer-area .footer-top .widget-link{
+        padding-bottom: 135px;
+    }
+    .map-contact-area .contact-info .info .box .media-left.icon {
+        padding-right: 0px;
+    }
+    .map-contact-area .contact-info .info .box .media-left{
+        padding-right: 10px;
+    }
+    .footer-area .footer-top .recent-widget li .recent-post-text {
+        width: 70%;
+    }
+    .latest-blog-area .latest .blog .img-hover {
+        max-width: 96%;
+    }
+}
+@media (max-width:700px){
+    .about-text-area .col-xs-7{
+        width: 100%;
+    }
+    .about-text-area .col-xs-5{
+        width: 100%;
+    }
+    .about-text-area .about-img {
+        margin-top: 111px;
+        max-width: 450px;
+        margin: 111px auto 0 auto;
+    }
+    .about-text-area .about-text h2{
+        font-size: 25px;
+        display: inline-block;
+    }
+    .about-text-area .about-text h2::after {
+        right: -121px;
+    }
+    .contact-area .contact-info-section .contact-info.last-info{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contact-area .contact-info-section .contact-info.info-middle{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width:600px){
+    .footer-area .footer-top .widget-link {
+        padding-bottom: 157px;
+    }
+    .footer-area .footer-top .recent-widget li .recent-post-text h5 a{
+        font-size: 13px;
+    }
+    .footer-area .footer-top .recent-widget li .recent-post-text {
+        width: 68%;
+    }
+    .map-contact-area .contact-info .info .box .media-body h2{
+        font-size: 16px;
+    }
+    .map-contact-area .contact-info .info .box .media-body ul li {
+        font-size: 13px;
+    }
+    .latest-blog-area .latest .blog .blog-content h2{
+        font-size: 13px;
+    }
+    .latest-blog-area .latest .blog .blog-content {
+        padding: 18px 5px 17px 10px;
+    }
+    .features-area .section-title{
+        font-size: 16px;
+    }
+    .main-slider-area .slide-tittle h2{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .services-area .service .service-img .img:after{
+        display: none;
+    }
+    .services-area .service .service-img {
+        padding-left: 10px;
+    }
+}
+@media (max-width:570px){
+    .latest-blog-area .latest .blog .blog-content p {
+        font-size: 16px;
+    }
+    .latest-blog-area .latest .blog{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .latest-blog-area .latest .blog .img-hover {
+        max-width: 95%;
+    }
+    .latest-blog-area .latest .blog.blog-info1{
+        margin-left: auto;
+    }
+    .latest-blog-area .latest .col-xs-6{
+        width: 100%;
+    }
+    .latest-blog-area .latest .blog.blog-info{
+        margin-left: auto;
+    }
+    .latest-blog-area .latest {
+        padding-top: 70px;
+    }
+    .latest-blog-area {
+        padding: 80px 0px 86px;
+    }
+    .latest-blog-area .latest .blog {
+        margin-bottom: 30px;
+    }
+   .latest-blog-area .btn-button {
+        margin: 50px auto 0 auto;
+    }
+}
+@media (max-width:540px){
+    .footer-area .footer-top .col-xs-6{
+        width: 100%;
+    }
+    .footer-area .footer-top .footer{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .footer-area .footer-top{
+        padding-bottom: 20px;
+    }
+    .footer-area .footer-top .widget-link{
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    .footer-area .footer-top .recent-widget li .recent-post-text {
+        width: 70%;
+    }
+    .footer-area .footer-top .recent-widget li .recent-post-text h5 a{
+        font-size: 12px;
+    }
+    .footer-area .footer-top .widget{
+        padding-bottom: 30px;
+    }
+    .map-contact-area .contact-info .col-xs-6{
+        width: 100%;
+    } 
+    .map-contact-area .contact-info .info .box .media-left {
+        padding-right: 20px;
+    }
+    .map-contact-area .contact-info .info .box .media-left.icon{
+        padding-right: 21px;
+    }
+    .map-contact-area .contact-info .info {
+        max-width: 300px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .map-contact-area .contact-info {
+        padding: 78px 0px 40px;
+    }
+    .clients-about-area .slider-carousel .slider-content .text{
+        padding: 25px 5px 28px 10px;
+    }
+    .clients-about-area .slider-carousel .slider-content .text p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .work-progressbar-area .work-progress .work-progressbar p{
+        font-size: 14px;
+    }
+    .features-area .section-title:after{
+        right: -130px;
+    }
+    .about-text-area .about-text h2::after {
+        right: -112px;
+    }
+    .about-text-area .about-text h2 {
+        font-size: 20px;
+    }
+    .team-area .col-xs-6{
+        width: 100%;
+    }
+    .team-area .teams .team{
+        max-width: 300px;
+        margin: 0 auto 30px auto;
+    }
+    .team-area .teams {
+        padding-top: 60px;
+    }
+    
+    .tp-tabs, .tp-thumbs, .tp-bullets {
+        display: none;
+    }
+    .features-area .features{
+        padding-top: 0px;
+    }
+    .clients-about-area .slider-carousel {
+        padding: 40px 30px 0px;
+    }
+    .clients-about-area .clients-btn {
+        margin: 60px auto 0;
+    }
+    .partner-logo-area .partner-carousel{
+        padding-top: 40px;
+    }
+}
+@media (max-width:480px){
+    .question-area .question-contact-form .contact-form {
+        padding: 33px 20px 40px;
+    }
+    .question-area .question-contact-form {
+        padding: 0px 15px;
+    }
+    .question-area .question-content {
+        padding: 0px 15px 30px;
+    }
+    .question-area .question-content h2 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+    .question-area .question-content p {
+        padding: 33px 0px 0px 0px;
+    }
+    .section-title::after{
+        right: -120px;
+    }
+    .section-title::after{
+        width: 60px;
+        right: -80px;
+    }
+    .work-progressbar-area .work-progress .col-xs-6{
+        width: 100%;
+    }
+    .work-progressbar-area .work-progress .work-progressbar{
+        max-width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .work-progressbar-area .work-progress .work-progressbar .circle .chart-percent{
+        left: 50%;
+        transform: translate(-50%); 
+    }
+    .about-area .about-content .texts h2{
+        font-size: 17px;
+    }
+    .about-area .about-content .about-img .content h4 {
+        padding-left: 29px;
+    }
+    .features-area .section-title{
+        letter-spacing: 0.10px;
+    }
+    .features-area .section-title:after{
+        right: -73px;
+    }
+}
+@media (max-width:430px){
+    .features-area .features-content{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .features-area{
+        padding-bottom: 50px;
+    }
+    .features-area .features .col-xs-6{
+        width: 100%;
+        height: 252px;
+    }
+    .features-area .features {
+        padding-top: 25px;
+    }
+    .blog-area .blog-section .tag{
+        font-size: 12px;
+    }
+    .blog-area .blog-section .tag h3{
+        font-size: 12px;
+    }
+    .blog-area .blog-section h2{
+        font-size: 24px;
+    }
+    .work-progressbar-area {
+        padding: 64px 0px 64px;
+    }
+    .partner-logo-area{
+        padding: 64px 0px 64px;
+    }
+    .about-area .about-content {
+        margin-top: 64px;
+    }
+}
+@media (max-width:360px){
+    .footer-area .footer-bottom .footer-nav li + li {
+        padding-left: 10px;
+    }
+    .footer-area .footer-bottom .footer-nav li + li::after{
+        left: 3px;
+    }
+    .section-title::after{
+        display: none;
+    }
+    .about-area .about-content .about-img{
+        max-width: 100%;
+        height: 300px;
+    }
+    .about-area .about-content .about-img img{
+        max-width: 100%;
+        height: 300px
+    }
+    .about-area .about-content .about-img .content h3{
+        padding-bottom: 112px;
+    }
+    .about-area .about-content .about-img .content h4{
+        padding-left: 6px;
+        font-size: 17px;
+    }
+    .about-text-area .about-text h2::after {
+        display: none;
+    }
+    .services-area {
+        padding: 100px 0px 95px;
+    }
+}
+
+@media (max-width:340px){
+    .question-area .question-content h2 {
+        font-size: 23px;
+        line-height: 37px;
+    }
+    .question-area .question-contact-form .submit {
+        padding: 0px 66px;
+    }
+    .about-area .about-content .about-img .content h3 {
+        padding-right: 10px;
+    }
+    .blog-area .side-bar-section .widget .widget-inner .recent-post .media-body .post-title{
+        font-size: 15px;
+    }
+    .blog-area .blog-section .tag, .blog-area .blog-section .tag h3 {
+        font-size: 11px;
+    }
+    .footer-area .footer-top .recent-widget .media .media-left{
+        padding-right: 9px;
+    }
+    .contact-area .contact-info-section .contact-info h5 {
+        font-size: 14px; 
+    }
+    .services-area .service .services-item p{
+        font-size: 14px;
+    }
+}
+@media (max-width:330px){
+    .latest-blog-area .latest .blog {
+        height: 367px;
+    }
+    .latest-blog-area .latest .blog .blog-content p {
+        font-size: 15px;
+    }
+}

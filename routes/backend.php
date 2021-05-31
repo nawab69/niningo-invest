@@ -8,7 +8,9 @@ use App\Http\Controllers\Backend\PageController;
 use App\Http\Controllers\Backend\ProfileController;
 use App\Http\Controllers\Backend\RoleController;
 use App\Http\Controllers\Backend\SettingController;
+use App\Http\Controllers\Backend\TransactionController;
 use App\Http\Controllers\Backend\UserController;
+use App\Http\Controllers\Backend\WithdrawController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -75,3 +77,16 @@ Route::group(['as' => 'settings.', 'prefix' => 'settings'], function () {
     Route::patch('socialite', [SettingController::class, 'updateSocialiteSettings'])->name('socialite.update');
 
 });
+
+// Transactions
+
+
+Route::get('/transactions',[TransactionController::class,'index'])->name('transactions');
+Route::get('/top-up',[TransactionController::class,'topup'])->name('topup');
+Route::get('/funds',[TransactionController::class,'funds'])->name('funds');
+Route::get('/investments',[TransactionController::class,'invests'])->name('invests');
+Route::get('/withdrawal',[TransactionController::class,'withdrawal'])->name('withdrawal');
+Route::put('/plan',[TransactionController::class,'changePlan'])->name('changePlan');
+Route::view('/plan','backend.funds.plan')->name('pan');
+Route::put('/transactions/{id}/cancel',[WithdrawController::class,'cancel'])->name('withdraw.cancel');
+Route::put('/transactions/{id}/complete',[WithdrawController::class,'complete'])->name('withdraw.complete');

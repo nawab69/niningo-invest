@@ -15,7 +15,7 @@ class CreatePlansTable extends Migration
     {
         Schema::create('plans', function (Blueprint $table) {
             $table->id();
-            $table->integer('month');
+            $table->integer('month')->unique();
             $table->integer('percent');
             $table->timestamps();
         });

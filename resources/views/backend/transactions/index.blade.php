@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
 @endpush
 
-@section('content')ß
+@section('content')
     <div class="app-page-title">
         <div class="page-title-wrapper">
             <div class="page-title-heading">
@@ -14,7 +14,7 @@
                     <i class="pe-7s-users icon-gradient bg-mean-fruit">
                     </i>
                 </div>
-                <div>{{ __('All Transactions') }}</div>
+                <div>{{ $meta['title'] }}</div>
             </div>
         </div>
     </div>
@@ -46,7 +46,7 @@
                                 <td class="text-center">
                                     {{$trx->user->email}}
                                 </td>
-                                <td class="text-center">{{ $trx->date }}</td>
+                                <td class="text-center">{{ $trx->created_at }}</td>
 
                             </tr>
                         @endforeach

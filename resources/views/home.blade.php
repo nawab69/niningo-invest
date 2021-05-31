@@ -27,7 +27,7 @@
 
     <div class="col-md-12 col-lg-4">
 
-        <a href="#" class="btn btn-block bg-gradient-warning text-white py-3">
+        <a href="{{route('profile.index')}}" class="btn btn-block bg-gradient-warning text-white py-3">
 
             <div class="d-flex justify-content-between align-items-center">
                 <div class="text-lg">Add Your Wallet Address</div>
@@ -81,7 +81,7 @@
         </div>
 
 
-        <a href="#" class="btn btn-block bg-gradient-default text-white py-3">
+        <a href="{{route('invest')}}" class="btn btn-block bg-gradient-default text-white py-3">
 
             <div class="d-flex justify-content-between align-items-center">
                 <div class="text-lg">Make your first Investment</div>

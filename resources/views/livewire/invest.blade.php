@@ -1,6 +1,6 @@
 <div class="row">
 
-    <div class="col-lg-8">
+    <div class="col-lg-12">
         <div class="card card-stats bg-alternate">
             <div class="card-body">
                 Step 1

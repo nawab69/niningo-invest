@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\Models\Fund;
 use App\Models\Role;
 use App\Models\User;
 use App\Http\Controllers\Controller;
@@ -71,11 +72,12 @@ class RegisterController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => ['required', 'string', 'max:255'],
+            'username' => ['required', 'string', 'max:255','unique:users'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
             'first_name' => ['required','string'],
             'last_name' => ['required','string'],
+            'phone' => ['required', 'string', 'max:255','unique:users'],
         ]);
     }
 
@@ -93,12 +95,22 @@ class RegisterController extends Controller
         if(session()->has('ref')){
             $ref_id = session()->get('ref');
         }
-        return User::create([
+        $user = User::create([
             'role_id' => Role::where('slug','user')->first()->id,
-            'name' => $data['name'],
+            'username' => $data['username'],
+            'first_name' => $data['first_name'],
+            'last_name' => $data['last_name'],
+            'phone' => $data['phone'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
-            'ref_id' => $ref_id
+            'ref_id' => $ref_id,
+            'status' => true
         ]);
+
+        Fund::create([
+            'user_id' => $user->id,
+        ]);
+
+        return $user;
     }
 }

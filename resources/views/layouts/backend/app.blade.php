@@ -14,6 +14,7 @@
     <link href="{{ asset('css/backend.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @stack('css')
+    @notifyCss
 </head>
 <body>
 <div id="app" class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
@@ -24,15 +25,19 @@
             <div class="app-main__inner">
                 @yield('content')
             </div>
-            @include('layouts.backend.partials.footer')
+{{--            @include('layouts.backend.partials.footer')--}}
         </div>
+
     </div>
 </div>
+
+@include('notify::messages')
+
 <!-- Scripts -->
 <script src="{{ asset('js/backend.js') }}"></script>
 <script src="{{ asset('js/app.js') }}"></script>
 <script src="{{ asset('js/script.js') }}"></script>
 @stack('js')
-@include('vendor.lara-izitoast.toast')
+@notifyJs
 </body>
 </html>
