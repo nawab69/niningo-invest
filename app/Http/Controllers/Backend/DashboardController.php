@@ -14,6 +14,7 @@ class DashboardController extends Controller
 
     public function index()
     {
+        \Gate::authorize('app.dashboard');
         $data['usersCount'] = User::count();
         $data['rolesCount'] = Role::count();
         $data['pagesCount'] = Page::count();
