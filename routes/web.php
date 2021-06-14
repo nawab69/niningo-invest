@@ -39,6 +39,11 @@ Route::post('/transfer', [TransferController::class, 'send'])->name('transfer');
 Route::post('/withdraw', [WithdrawController::class, 'withdraw'])->name('withdraw');
 Route::view('invest','invest')->name('invest');
 Route::view('refer','refer')->name('refer');
+Route::view('about-us','about')->name('about');
+Route::view('contact-us','contact');
+Route::view('terms-of-services','terms');
+Route::view('privacy-policy','privacy');
+Route::view('faq','faq');
 
 
 Route::redirect('/admin','/admin/dashboard');
